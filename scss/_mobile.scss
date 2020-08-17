@@ -1,0 +1,95 @@
+@media only screen and (max-width: 768px) {
+  // Body
+  #body-home {
+    height: 100vh;
+    text-align: center;
+  }
+
+  // Header
+  .mainheader {
+    a {
+      float: none;
+    }
+    span {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  }
+
+  // Hiking
+  #hiking {
+    text-align: center;
+    padding: 10px;
+    height: 60%;
+    // height: 100%;
+    h1 {
+      font-size: 6rem;
+      font-weight: 400;
+    }
+    span {
+      // background: #000;
+      padding: 10px;
+      // color: #fff;
+      font-size: 1.2rem;
+      // letter-spacing: 2px;
+    }
+  }
+
+  // Footer
+  #mainfooter {
+    a {
+      float: none;
+    }
+    span {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  } //End #mainfooter
+
+  // Contact Header Contact
+  .header-contact {
+    text-align: center;
+    a {
+      float: none;
+    }
+    i {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+  } //.header-contact
+
+  // Contact
+  #contact {
+    padding: 60px 20px;
+    height: 100%;
+    width: 100%;
+    h1 {
+      font-size: 5rem;
+    }
+    form {
+      width: 100%;
+    }
+  }
+
+  // Footer Contact
+  #footer-contact {
+    margin-top: 20px;
+    text-align: center;
+    a {
+      float: none;
+    }
+    i {
+      float: none;
+      display: block;
+      margin: 0 auto;
+      margin-top: 20px;
+    }
+  } //End #footer-contact
+} //End @media
